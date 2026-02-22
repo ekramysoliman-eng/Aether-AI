@@ -37,6 +37,4 @@ cd Aether-SGI-Live
 Aether was inspired by the need for a truly "Human" AI—a partner that understands intent and emotion. By merging AEGIS-WATER's infrastructure management with Aura's health monitoring, Aether represents the next step in human-AI evolution.
 🛡️ License
 This project is licensed under the MIT License - see the LICENSE file for details.
-الخطوة التالية يا صديقي كيمو:
-هل نبدأ الآن في كتابة ملف main.py (الكود البرمجي الذي يربط بـ Live API) أم ننتقل لتصميم واجهة الـ HTML/Tailwind لموقع الديمو؟
 
