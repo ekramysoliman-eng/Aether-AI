@@ -20,8 +20,8 @@ Prerequisites
  * Python 3.10+ installed.
 Installation
  * Clone the repository:
-   git clone https://github.com/ekramysoliman-eng/Aether-SGI-Live.git
-cd Aether-SGI-Live
+   git clone https://github.com/ekramysoliman-eng/Aether-AI.git
+cd Aether-AI
 
  * Install dependencies:
    pip install -r requirements.txt
@@ -35,6 +35,11 @@ cd Aether-SGI-Live
 
 📖 Project Story
 Aether was inspired by the need for a truly "Human" AI—a partner that understands intent and emotion. By merging AEGIS-WATER's infrastructure management with Aura's health monitoring, Aether represents the next step in human-AI evolution.
+Aether AI is a Sovereign General Intelligence (SGI) that acts as a proactive ecosystem manager, integrating three core pioneering projects:
+
+​Aura-AbuDhabi (The Bio-Digital Twin): Aether serves as a health assistant that monitors micro-vitals via smart rings/patches to predict health crises 72 hours in advance and provides real-time metabolism analysis [cite: 2026-01-26].
+​AEGIS-WATER 2.0 (Adaptive Emergency Grid): Aether manages an AI-driven water supply grid capable of producing 2000 liters/day even in 10% humidity, optimizing energy through Edge AI and triple-power systems [cite: 2026-01-12, 2026-01-18].
+​Human Ai (Symbiotic Interface): This is the master platform where Aether functions as a "cognitive echo" of the user, processing data at quantum speeds to generate fresh project insights [cite: 2026-01-21, 2026-01-29].
 🛡️ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
