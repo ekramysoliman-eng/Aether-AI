@@ -1,0 +1,18 @@
+# Google Generative AI SDK for Gemini 1.5 Pro & Live API
+google-generativeai
+
+# For environment variables security
+python-dotenv
+
+# For real-time audio and vision streaming
+pyaudio
+opencv-python
+numpy
+
+# For web framework (if using Flask/FastAPI for the demo site)
+fastapi
+uvicorn
+
+# For asynchronous operations (essential for Live API)
+asyncio
+websockets
