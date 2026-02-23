@@ -3,7 +3,7 @@ async function syncWithBrain() {
     const responseBox = document.getElementById('aether-response');
     
     // REPLACE THIS URL with your actual Direct URL from Hugging Face
-    const brainUrl = "https://ekramysoliman-eng-aether-ai.hf.space/chat";
+    const brainUrl = "https://ekramysoliman-aether-ai-brain.hf.space/chat";
 
     if (!userInput) return alert("Please type a message.");
 
