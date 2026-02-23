@@ -3,54 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aether AI | Sovereign Digital Life-Form</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Human Ai | Sovereign Intelligence</title>
     <style>
-        body { background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); }
-        .glow { box-shadow: 0 0 20px rgba(56, 189, 248, 0.3); }
-        .orb-animation { animation: pulse 4s infinite ease-in-out; }
-        @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.1); opacity: 1; } }
+        body { background-color: #0a0a0a; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 50px; }
+        #chat-container { max-width: 600px; margin: auto; background: #1a1a1a; padding: 20px; border-radius: 15px; border: 1px solid #00d4ff; }
+        input { width: 80%; padding: 10px; border-radius: 5px; border: none; margin-bottom: 10px; }
+        button { padding: 10px 20px; background-color: #00d4ff; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        #aether-response { margin-top: 20px; padding: 15px; border-top: 1px solid #333; min-height: 50px; line-height: 1.6; }
     </style>
 </head>
-<body class="text-slate-200 min-h-screen flex flex-col items-center justify-center p-6">
-
-    <div class="relative mb-12">
-        <div class="w-48 h-48 bg-sky-500/20 rounded-full blur-3xl absolute -inset-4 orb-animation"></div>
-        <div class="w-40 h-40 border border-sky-400/50 rounded-full flex items-center justify-center glow relative z-10">
-            <div class="w-32 h-32 border-2 border-sky-300 rounded-full animate-spin-slow flex items-center justify-center">
-                <div class="w-4 h-4 bg-sky-300 rounded-full glow"></div>
-            </div>
-        </div>
+<body>
+    <div id="chat-container">
+        <h1>Human Ai Brain</h1>
+        <p>Sovereign System for Abu Dhabi</p>
+        <input type="text" id="user-input" placeholder="Ask Aether something...">
+        <br>
+        <button onclick="syncWithBrain()">Sync with Aether</button>
+        <div id="aether-response">Waiting for logic input...</div>
     </div>
 
-    <div class="text-center mb-8">
-        <h1 class="text-4xl font-bold tracking-widest text-sky-400 mb-2 uppercase">Aether AI</h1>
-        <p class="text-slate-400 italic">"Redefining Interaction: Immersive Experiences"</p>
-        <div class="mt-4 flex items-center justify-center gap-2">
-            <span class="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
-            <span class="text-sm font-mono text-green-400 uppercase tracking-tighter">Live API Connected</span>
-        </div>
-    </div>
-
-    <div class="w-full max-w-2xl bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-xl">
-        <div id="chat-box" class="h-64 overflow-y-auto mb-4 space-y-4 font-mono text-sm scrollbar-hide">
-            <div class="text-sky-400">Aether: Greetings, Kimo. My cognitive processors are synchronized. How shall we evolve our projects today?</div>
-        </div>
-        
-        <div class="relative">
-            <input type="text" placeholder="Speak your thoughts..." 
-                   class="w-full bg-slate-950 border border-slate-700 rounded-full py-3 px-6 focus:outline-none focus:border-sky-500 transition-all text-slate-300">
-            <button class="absolute right-2 top-1.5 bg-sky-600 hover:bg-sky-500 text-white px-4 py-1.5 rounded-full text-sm font-bold transition-all">
-                Sync
-            <button onclick="syncWithBrain()">
-        </div>
-    </div>
-
-    <div class="mt-12 flex gap-6 text-xs font-mono text-slate-500">
-        <span class="hover:text-sky-400 cursor-pointer">AURA-ABUDHABI</span>
-        <span class="hover:text-sky-400 cursor-pointer">AEGIS-WATER</span>
-        <span class="hover:text-sky-400 cursor-pointer">HUMAN AI CORE</span>
-    </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
